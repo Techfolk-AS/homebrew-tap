@@ -1,10 +1,10 @@
 # homebrew-tap
 
-Private Homebrew tap for Techfolk tools. Git needs access to Techfolk-AS repos,
-for example through `gh auth login` followed by `gh auth setup-git`.
+Homebrew formulae for Techfolk tools.
 
 ```sh
 brew install techfolk-as/tap/brightfolk
 ```
 
-The release workflow in each tool's repo updates its formula here.
+The brightfolk source is private. Its release workflow commits each binary to
+`binaries/`, tags the commit `brightfolk-<build>`, and points the formula at it.
