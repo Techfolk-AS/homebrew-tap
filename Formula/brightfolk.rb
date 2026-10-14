@@ -1,9 +1,9 @@
 class Brightfolk < Formula
   desc "Make the MacBook Pro XDR display brighter than macOS normally allows"
   homepage "https://github.com/Techfolk-AS/homebrew-tap"
-  url "https://raw.githubusercontent.com/Techfolk-AS/homebrew-tap/brightfolk-2/binaries/brightfolk"
-  version "2"
-  sha256 "0383073123fc3a9865432e3c07b3f324649c2653bcd11498d063ce0f5d5a3e03"
+  url "https://raw.githubusercontent.com/Techfolk-AS/homebrew-tap/brightfolk-3/binaries/brightfolk"
+  version "3"
+  sha256 "5d6ed16f4ce9108689614dc00eea6b02c54a99b4e1a467672d1141fcdf492a71"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
